@@ -56,7 +56,7 @@ team.onreadystatechange = function() {
     }
 }
 team.onerror = function() {
-    console.log("Error while loading XML...");
+    console.log("Error while loading...");
 }
 team.open("GET", "http://sandbox.bittsdevelopment.com/code1/fetchemployees.php ");
 team.send();
